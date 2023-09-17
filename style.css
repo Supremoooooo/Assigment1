@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    background-color: #283149;
+}
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #614004;
+}
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+}
+
+.c {
+    background-image: url("/c.jpg");
+}
+.p {
+    background-image: url("p.jpg");
+}
+.b {
+    background-image: url("b.avif");
+}
+.m {
+    background-image: url("m.jpg");
+}
+.animal {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-color: white;
+    outline: none;
+    border: 20px solid #658d61;
+    border-radius: 25px;
+    font-size: 5rem;
+    font-family: 'Roboto', cursive;
+    font-weight: 900;
+    line-height: 5;
+    color: #614105;
+    text-shadow: 3px 0 #edf107;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+    text-align: center;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
